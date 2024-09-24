@@ -24,3 +24,14 @@
   border-radius: 10px;
   padding-left: 10px;
 }
+
+@keyframes sliderTag {
+  from {
+    transform: translateX(-200px);
+  }
+
+  to{
+    transform: translateX(0px);
+  }
+  
+}
