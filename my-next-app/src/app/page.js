@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
   <h1>🍿 REEL MAGIC 🍿</h1>
-  <p>Keep It Reel</p>
+  <h2 className = {styles.sliderTag }>Keep It Reel</h2>
   <hr></hr>
   <div className={styles.mWrapper}>
     <div className={styles.movieBox}>

@@ -1,4 +1,4 @@
-// File: /Users/orbic/SOC-Projects/Final Project/final-project-reelstack/my-next-app/src/app/layout.js
+// File: C:\Users\shilp\SOC_all\bc17-w3d1-project-team-team\final-project-reelstack\my-next-app\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -25,6 +25,15 @@
   padding-left: 10px;
 }
 
+.animate {
+  animation-duration:1s;
+  animation-fill-mode:both
+}
+
+.animate-infinite{
+  animation-iteration-count:infinite
+}
+
 @keyframes sliderTag {
   from {
     transform: translateX(-200px);
