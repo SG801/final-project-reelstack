@@ -25,13 +25,20 @@
   padding-left: 10px;
 }
 
-.animate {
+/*.animate {
   animation-duration:1s;
   animation-fill-mode:both
 }
 
 .animate-infinite{
   animation-iteration-count:infinite
+}*/
+
+.sliderTag {
+  animation-name: sliderTag;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 @keyframes sliderTag {
