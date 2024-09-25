@@ -36,18 +36,18 @@
 
 .sliderTag {
   animation-name: sliderTag;
-  animation-duration: 1s;
+  animation-duration: 20s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
 
 @keyframes sliderTag {
   from {
-    transform: translateX(-200px);
+    transform: translateX(100%);
   }
 
   to{
-    transform: translateX(0px);
+    transform: translateX(-100%);
   }
   
 }
