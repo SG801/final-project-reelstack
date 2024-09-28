@@ -9,7 +9,8 @@
     "lint": "next lint --max-warnings=0",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --write .",
-    "postinstall": "husky install"
+    "audit": "npm audit",
+    "postinstall": "npm audit"
   },
   "dependencies": {
     "next": "14.2.13",
@@ -19,13 +20,21 @@
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.13",
-    "husky": "^4.3.8",
     "prettier": "^3.3.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
-      "git add"
+      "prettier --write"
     ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true
   }
 }

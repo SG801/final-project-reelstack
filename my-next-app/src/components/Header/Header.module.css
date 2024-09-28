@@ -1,0 +1,69 @@
+/* Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between title and button */
+  padding: 10px 15px;
+  background-color: #001523;
+  width: 100%; /* Utilize full width within global max-width */
+  box-sizing: border-box;
+  height: 60px; /* Fixed height for consistency */
+}
+
+.link {
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove border */
+}
+
+.hidden {
+  display: none; /* Hide the element */
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem; /*CHECK WITH JAMES IF THIS OK*/
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.2em;
+  flex: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; /* Prevent text overflow */
+}
+
+.searchButton {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.searchButton svg {
+  width: 24px;
+  height: 24px;
+  transition: stroke 0.3s ease;
+}
+
+.hideSearchButton {
+  display: none; /* Hide SearchButton when SearchBar is active */
+}
+
+.iconFill {
+  fill: #000; /* Set fill color to black (matches background) */
+}
+
+.iconStroke {
+  stroke: #ff9e00; /* Set stroke color to white */
+}
+
+.activeIcon {
+  stroke: #ff9e00; /* Stroke color when the icon is active */
+}
+
+.searchActiveHeader .searchButton svg {
+  stroke: #ff9e00; /* Stroke color when search is active */
+}
